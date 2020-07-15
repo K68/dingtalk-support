@@ -7,6 +7,9 @@ scalaVersion := "2.13.1"
 lazy val `miracle` = project in file(".")
 
 libraryDependencies ++= Seq(
+  // play framework & akka
+  "com.typesafe.play" %% "play-json" % "2.8.1",
+
   // monix
   "io.monix" %% "monix" % "3.1.0",
 
