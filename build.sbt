@@ -7,6 +7,9 @@ scalaVersion := "2.13.1"
 lazy val `miracle` = project in file(".")
 
 libraryDependencies ++= Seq(
+  // logging
+  "commons-logging" % "commons-logging" % "1.2",
+
   // play framework & akka
   "com.typesafe.play" %% "play-json" % "2.8.1",
 
